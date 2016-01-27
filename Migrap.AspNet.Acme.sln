@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CF1079AC-FED8-48F7-B20B-BC0B531EE897}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{176DB882-8BDE-414E-A9BD-99A3D43E3AD0}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Migrap.AspNet.Acme", "src\Migrap.AspNet.Acme\Migrap.AspNet.Acme.xproj", "{FD2FAA9C-AD23-439C-A320-454FABEAE95C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Migrap.AspNet.Acme.LetsEncrypt", "src\Migrap.AspNet.Acme.LetsEncrypt\Migrap.AspNet.Acme.LetsEncrypt.xproj", "{B53D695B-6584-4E76-87ED-5B90277AD40D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Migrap.AspNet.Acme.Abstractions", "src\Migrap.AspNet.Acme.Abstractions\Migrap.AspNet.Acme.Abstractions.xproj", "{AB50C815-D224-4392-8029-B7D578EC9D1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD2FAA9C-AD23-439C-A320-454FABEAE95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD2FAA9C-AD23-439C-A320-454FABEAE95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD2FAA9C-AD23-439C-A320-454FABEAE95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD2FAA9C-AD23-439C-A320-454FABEAE95C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53D695B-6584-4E76-87ED-5B90277AD40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53D695B-6584-4E76-87ED-5B90277AD40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53D695B-6584-4E76-87ED-5B90277AD40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53D695B-6584-4E76-87ED-5B90277AD40D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB50C815-D224-4392-8029-B7D578EC9D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB50C815-D224-4392-8029-B7D578EC9D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB50C815-D224-4392-8029-B7D578EC9D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB50C815-D224-4392-8029-B7D578EC9D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD2FAA9C-AD23-439C-A320-454FABEAE95C} = {CF1079AC-FED8-48F7-B20B-BC0B531EE897}
+		{B53D695B-6584-4E76-87ED-5B90277AD40D} = {CF1079AC-FED8-48F7-B20B-BC0B531EE897}
+		{AB50C815-D224-4392-8029-B7D578EC9D1C} = {CF1079AC-FED8-48F7-B20B-BC0B531EE897}
+	EndGlobalSection
+EndGlobal
